@@ -21,7 +21,9 @@ namespace design_pattern_arch_project.Controllers
 {
     public class HomeController : Controller
     {
+        //here createing HOMEREPO variable from ReposInterface in Model folder to allow us call its methods
         private ReposInterface HomeRepo;
+
         private IHostingEnvironment Environment;
 
         // constructor func to call methods and repo interface
